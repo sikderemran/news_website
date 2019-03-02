@@ -1,0 +1,43 @@
+@media screen and (min-width: 0px) and (max-width: 768px){
+	.colum-33{
+		width: 50%;
+	}
+	.sideNewsData p{
+		display: none;
+	}
+	.news .newsImage{
+		height: 100px;
+	}
+
+
+}
+@media screen and (min-width: 0px) and (max-width: 480px){
+	.colum-10,
+	.colum-20,
+	.colum-30,
+	.colum-33,
+	.colum-40,
+	.colum-50,
+	.colum-60,
+	.colum-70,
+	.colum-80,
+	.colum-90,
+	.colum-100{
+	float: none;
+	width: 100%;
+}
+	.sideHeadline{
+		margin:15px 0px;
+	}
+	.sideNewsImage{
+		height: 150px;
+	}
+	footer address{
+		margin-bottom: 15px;
+	}
+	.footerGallery li img{
+		height: auto;
+	}
+
+
+}
